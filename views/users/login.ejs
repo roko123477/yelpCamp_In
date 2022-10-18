@@ -1,0 +1,27 @@
+<% layout('layouts/boilerplate') %>
+
+<div class="card mx-auto user">
+    <img src="https://images.unsplash.com/photo-1476041800959-2f6bb412c8ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h1 class="card-title mb-3">Log In</h1>
+        <div class="card-text">
+            <form action="/login" method="POST" class="validate-form" novalidate>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>            
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <button class="btn col-12 btn-success async-btn">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
