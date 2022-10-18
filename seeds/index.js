@@ -62,7 +62,7 @@ const seedDB = async () => {
 
         let camp = new Campground({
             name: `${seeder(descriptors)} ${seeder(places)}`,
-             author: '634d67de5b995c354c5b4ffd', // local mongo
+             author: '634b99e85957f50d9256898d', // local mongo
            // author: '62fcce973768474aa68b58ce',  // mongo atlas
             price: price,
             description: "The Camp Exotica is a perfect weekend getaway option located in Kullu in the Manali district of Himachal Pradesh. The accommodation provided is world class and the tents simply leave you connecting with nature like never before. The location of these tents is such that it gives a panoramic view of the surrounding mountains. The food provided is of fine quality and the incredible view will simply leave you in awe of this adventure. Make sure to take out time for this pleasure full camping trip",
