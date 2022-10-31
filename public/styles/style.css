@@ -79,20 +79,20 @@ nav .dropdown-item {
 }
 
 #map {
-  height: 60vh;
+  height: 50vh;
 }
 
 #cluster-map {
   position: absolute;
-  top: 57px;
+  top: 50px;
   left: 0;
-  height: 70vh;
+  height: 50vh;
   width: 99vw;
 }
 
 #cluster-map-space {
   position: relative;
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   /* background-color: honeydew; */
 }
