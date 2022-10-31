@@ -16,7 +16,7 @@
     "klv",
     "yelp"
   ],
-  "author": "Karla Vargas",
+  "author": "Rohit Koner",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.12.1",
